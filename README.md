@@ -10,8 +10,8 @@ Kairos is a modern online banking platform with cryptocurrency integration and G
 - HTML5, CSS3, JavaScript
 - Open Server
 
-## Installation and launch
-1. Download the archive
+## Installing and running the frontend and backend parts of the site using OpenServer
+1. Download the archive from the latest commit
 
 2. Setting up a local server using OpenServer 
 1) Copy the project folder to OSPanel\domains\kairos.com\
@@ -47,3 +47,15 @@ GOOGLE_CLIENT_SECRET=your_client_secret
 5. Run localhost with Open Server
 
 6. Or follow the link http://d33672ng.beget.tech/
+
+
+## Installing and running only the frontend part of the site using the Vite builder
+
+1. Download the archive from the latest commit
+
+2. Enter the following in the terminal:
+npm run build
+npm run dev
+
+3. Open localhost in browser
+
